@@ -1,0 +1,376 @@
+/* Provide sufficient contrast against white background */
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+body {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  border: 50px solid rgb(52, 73, 94);
+}
+
+@media only screen and (min-width: 1500px) {
+  */ body {}
+}
+
+.btn-primary {
+  color: rgb(165, 78, 78);
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+h1 {
+  font-family: "Proxima Nova", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  letter-spacing: .1rem;
+  padding-top: 10px;
+  font-weight: 800;
+}
+
+p {
+  font-family: "Proxima Nova", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  letter-spacing: .05rem;
+}
+
+.CreateAccount>h1 {
+  font-size: 45px;
+  padding-top: 50px;
+}
+
+.CreateAccount>h1>span {
+  color: rgb(52, 73, 94);
+  background: white;
+  border-radius: 2px;
+  font-size: 45px
+}
+
+.CreateAccount {
+  background-color: ;
+  height: 80vh;
+  width: 60vw;
+  margin: auto;
+  vertical-align: middle;
+  max-width: 850px;
+  background-color: rgb(52, 73, 94);
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+form input {
+  border-radius: 2px;
+  border: none;
+  padding: 15px;
+  margin: 8px;
+}
+
+form a {
+  margin: auto;
+  margin-top: 25px;
+  color: white;
+  background-color: rgb(52, 73, 94);
+  border: none;
+  font-size: 17px;
+  width: 50px;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.signIn>p {
+  font-size: 14px;
+}
+
+p a {
+  background-color: white;
+  color: rgb(52, 73, 94);
+  border-radius: 2px;
+  font-size: 18px;
+  border: 1px solid blue;
+}
+
+.NavBar {
+  display: flex;
+  background-color: rgb(52, 73, 94);
+  justify-content: space-between;
+  border-radius: 2px;
+}
+
+.NavBar>span>a {
+  color: white;
+  margin-right: 2px;
+}
+
+span a:nth-child(1) {
+  margin-right: 10px;
+}
+
+span a:nth-child(2) {
+  margin-right: 10px;
+}
+
+.NavBar>span {
+  margin-top: auto;
+  margin-bottom: 5px;
+}
+
+.NavBar>h1>span {
+  color: rgb(52, 73, 94);
+  background-color: white;
+  border-radius: 2px;
+  margin: 1.5px;
+}
+
+.NavBar>h1 {
+  padding-left: 10px;
+}
+
+.Links {
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.HomePage {
+  background-color: rgb(251, 251, 251);
+  width: 90%;
+  height: 74vh;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  max-width: 800px;
+}
+
+.HomePage>span {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.HomePage>span>h2 {
+  color: white;
+  background-color: rgb(52, 73, 94);
+  font-size: 70px;
+  border-radius: 4px;
+  font-family: copperplate;
+}
+
+.HomePage>span>h1 {
+  color: rgb(52, 73, 94);
+  background-color: white;
+  font-size: 70px;
+  border-radius: 4px;
+  font-family: copperplate;
+}
+
+.HomePage>p:nth-child(1) {
+  color: rgb(52, 73, 94);
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 35px;
+  justify-content: start;
+}
+
+.HomePage>p:nth-child(3) {
+  color: rgb(52, 73, 94);
+  font-size: 14px;
+  letter-spacing: 2px;
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  line-height: 22px;
+  word-spacing: 2px;
+  text-indent: 5px;
+  max-width: 600px;
+}
+
+.footer {
+  background-color: rgb(52, 73, 94);
+  height: 100px;
+  margin: auto;
+  justify-content: center;
+  position: fixed;
+  bottom: 1px;
+  width: 100vw;
+}
+
+footer>h1>span {
+  color: rgb(52, 73, 94);
+  background-color: white;
+  border-radius: 2px;
+}
+
+.footer>h1 {
+  background-color: rgb(52, 73, 94);
+  width: 100px;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+  top: 25px;
+  right: 65px;
+}
+
+.footer>div>p {
+  font-size: 10px;
+  line-height: 0px;
+  float: left;
+  position: relative;
+  top: 22px;
+}
+
+.footer>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  height: 60px;
+  padding-left: 5px;
+}
+
+.Game {
+  width: 50%;
+  max-width: 500px;
+  height: 50%;
+  background-color: rgb(52, 73, 94);
+  margin: auto;
+  border: 5px solid rgb(144, 180, 247);
+  border-radius: 5px;
+}
+
+.question {
+  color: white;
+  font-family: copperplate;
+  width: 40%;
+  max-width: 200px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.question>h1 {
+  font-family: copperplate;
+  font-size: 30px;
+}
+
+.question>h2 {
+  font-family: copperplate;
+  font-size: 18px;
+}
+
+.answerButtons {
+  display: flex;
+  border-color: rgb(144, 180, 247);
+  color: rgb(255, 255, 255);
+  background-color: rgb(52, 73, 94);
+  border-radius: 10px;
+  float: inline-end;
+  padding: 4px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-width: 4px;
+  font-family: copperplate;
+  justify-content: center;
+}
+
+.nextButton {
+  display: flex;
+  border-color: rgb(144, 180, 247);
+  color: rgb(255, 255, 255);
+  background-color: rgb(52, 73, 94);
+  border-radius: 10px;
+  float: inline-end;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border-width: 4px;
+  font-family: copperplate;
+  justify-content: center;
+  padding: 10px;
+}
+
+.correct {
+  border: 1px solid greenyellow;
+  background-color: greenyellow;
+  width: 20px;
+}
+
+.wrong {
+  border: 1px solid red;
+}
+
+.answerContainer {
+  grid-column: 2;
+  text-align: center;
+  margin: auto;
+}
+
+.gameContainer {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.showScore {
+  padding: 0px;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.showScoreContainer {
+  width: 50%;
+  height: 40%;
+  max-width: 500px;
+  background-color: rgb(52, 73, 94);
+  margin: auto;
+  border: 5px solid rgb(144, 180, 247);
+  border-radius: 5px;
+}
+
+.incorrect {
+  border: 1px solid burlywood;
+}
