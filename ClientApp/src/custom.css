@@ -46,29 +46,6 @@ p {
   letter-spacing: .05rem;
 }
 
-.CreateAccount>h1 {
-  font-size: 45px;
-  padding-top: 50px;
-}
-
-.CreateAccount>h1>span {
-  color: rgb(52, 73, 94);
-  background: white;
-  border-radius: 2px;
-  font-size: 45px
-}
-
-.CreateAccount {
-  background-color: ;
-  height: 80vh;
-  width: 60vw;
-  margin: auto;
-  vertical-align: middle;
-  max-width: 850px;
-  background-color: rgb(52, 73, 94);
-  margin-bottom: 15px;
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -181,7 +158,7 @@ span a:nth-child(2) {
 .HomePage>span>h2 {
   color: white;
   background-color: rgb(52, 73, 94);
-  font-size: 70px;
+  font-size: 90px;
   border-radius: 4px;
   font-family: copperplate;
 }
@@ -189,7 +166,7 @@ span a:nth-child(2) {
 .HomePage>span>h1 {
   color: rgb(52, 73, 94);
   background-color: white;
-  font-size: 70px;
+  font-size: 130px;
   border-radius: 4px;
   font-family: copperplate;
 }
@@ -264,7 +241,7 @@ footer>h1>span {
 .Game {
   width: 50%;
   max-width: 500px;
-  height: 50%;
+  height: 60%;
   background-color: rgb(52, 73, 94);
   margin: auto;
   border: 5px solid rgb(144, 180, 247);
@@ -284,33 +261,61 @@ footer>h1>span {
 .question>h1 {
   font-family: copperplate;
   font-size: 30px;
+  border-color: rgb(144, 180, 247);
+  border-top: 3px solid rgb(144, 180, 247);
+  border-bottom: 3px solid rgb(144, 180, 247);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+  border: none;
+  margin: auto;
 }
 
 .question>h2 {
   font-family: copperplate;
   font-size: 18px;
+  position: relative;
+  left: 150px;
+  bottom: 90px;
+}
+
+.question>h3 {
+  font-family: copperplate;
+  font-size: 16px;
+  border-color: rgb(144, 180, 247);
+  border-radius: 10px;
+  margin: auto;
 }
 
 .answerButtons {
   display: flex;
-  border-color: rgb(144, 180, 247);
   color: rgb(255, 255, 255);
   background-color: rgb(52, 73, 94);
   border-radius: 10px;
   float: inline-end;
   padding: 4px;
-  margin-top: 25px;
+  margin: 10px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 50%;
   border-width: 4px;
   font-family: copperplate;
   justify-content: center;
+  border: none;
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  border-color: rgb(144, 180, 247);
+  border-radius: 8px;
+  padding: 5px;
 }
 
 .nextButton {
   display: flex;
+  border: none;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
   border-color: rgb(144, 180, 247);
+  border-radius: 8px;
   color: rgb(255, 255, 255);
   background-color: rgb(52, 73, 94);
   border-radius: 10px;
@@ -319,19 +324,16 @@ footer>h1>span {
   margin-left: auto;
   margin-right: auto;
   width: 100px;
-  border-width: 4px;
   font-family: copperplate;
   justify-content: center;
-  padding: 10px;
+  padding: 11px;
 }
 
 .correct {
   border: 1px solid greenyellow;
-  background-color: greenyellow;
-  width: 20px;
 }
 
-.wrong {
+.incorrect {
   border: 1px solid red;
 }
 
@@ -353,12 +355,41 @@ footer>h1>span {
 }
 
 .showScore {
-  padding: 0px;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   justify-content: center;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  border: 5px solid rgb(144, 180, 247);
+}
+
+.showScoreRound {
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  position: relative;
+  top: 65px;
+  border-radius: 5px;
+}
+
+.showScoreRound>p {
+  font-size: 50px;
+  font-family: copperplate;
+}
+
+.showScoreRound>button {
+  padding: 15px;
+  font-size: 30px;
+  border: 2px solid rgb(144, 180, 247);
+  font-family: copperplate;
 }
 
 .showScoreContainer {
@@ -371,6 +402,6 @@ footer>h1>span {
   border-radius: 5px;
 }
 
-.incorrect {
-  border: 1px solid burlywood;
+.homeLink {
+  color: white;
 }
