@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Questions from "../sampleQuestions";
-import Question from "./Question";
 
 export function Game() {
   let [currentQuestionIndex, setCurrentQuestionIndex] = useState(1);
   let [resetCurrentQuestionIndex, setResetCurrentQuestionIndex] = useState(11);
   let [resetCurrentQuestionNumber, setResetCurrentQuestionNumber] = useState(0);
   let [currentQuestionNumber, setCurrentQuestionNumber] = useState(1);
-
   let [showRoundScore, setShowRoundScore] = useState(false);
   let [score, setScore] = useState(0);
   let [showingCorrectAnswer, setShowingCorrectAnswer] = useState(false);
@@ -18,7 +16,6 @@ export function Game() {
   let [bonusQuestionButton, setBonusQuestion] = useState(false);
   let [totalScore, setTotalScore] = useState(0);
   let [showTotalScore, setShowTotalScore] = useState(false);
-
   let correctAnswer = Questions[currentQuestionIndex].correct;
   const incorrectAnswers = Questions[currentQuestionIndex].incorrect;
   const currentQuestion = Questions[currentQuestionIndex];

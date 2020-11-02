@@ -1,6 +1,5 @@
 import React from "react";
 import { Route, Switch } from "react-router";
-import CreateAccount from "./createAccount";
 
 const NavBar = () => {
   return (
@@ -11,7 +10,7 @@ const NavBar = () => {
         </h1>
         <span className="Links">
           <a href="">Home</a>
-          <a href="/triviaGame">Practice</a>
+          <a href="/Game">Practice</a>
         </span>
         <span></span>
       </div>
